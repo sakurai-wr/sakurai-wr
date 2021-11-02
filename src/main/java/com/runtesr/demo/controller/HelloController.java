@@ -20,4 +20,9 @@ public class HelloController {
     public String felth(){
         return "i am a student";
     }
+
+    @RequestMapping(value = "changeid",method = RequestMethod.GET)
+    public String changid(){
+        return "i haved changed";
+    }
 }
