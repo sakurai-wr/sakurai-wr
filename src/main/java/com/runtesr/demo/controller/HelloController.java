@@ -30,4 +30,9 @@ public class HelloController {
     public String svncheck(){
         return "i have check";
     }
+
+    @RequestMapping("seythingk")
+    public int seythingk(){
+        return 0;
+    }
 }
