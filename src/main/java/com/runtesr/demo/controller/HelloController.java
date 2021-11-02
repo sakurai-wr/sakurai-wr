@@ -25,4 +25,9 @@ public class HelloController {
     public String changid(){
         return "i haved changed";
     }
+
+    @RequestMapping(value = "svncheck",method = RequestMethod.POST)
+    public String svncheck(){
+        return "i have check";
+    }
 }
