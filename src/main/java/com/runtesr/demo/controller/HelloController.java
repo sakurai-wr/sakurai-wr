@@ -40,4 +40,9 @@ public class HelloController {
     public int seythingk(){
         return 0;
     }
+
+    @RequestMapping(value = "sayOk",method = RequestMethod.GET)
+    public String sayOk(){
+        return "ok";
+    }
 }
